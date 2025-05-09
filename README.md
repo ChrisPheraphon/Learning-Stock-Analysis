@@ -50,5 +50,32 @@ Ensure `.env` is added to your `.gitignore` file to prevent accidental uploads.
 
 ```bash
 pip install -r requirements.txt
+```
+###2. Prepare data
+```
+python fetch_stock_data.py
+python fetch_news_data.py
+python news_sentiment_analysis.py
+python integrate_news_stock.py
+```
+###3. Train and test the model
+```
+python stock_prediction_lstm.py
+python test_model.py
+```
+📊 Sample CSV Format
+AAPL_data.csv
+```
+Date,Close
+2022-01-03,178.8799285888672
+2022-01-04,179.6999969482422
+```
+news_data.csv
+```
+Date,Headline,URL
+2025-02-19,The Secret Behind Temu’s Rock-bottom Prices,https://...
+```
+⚠️ Disclaimer
+This project is for educational purposes only and not intended for real-world financial trading or investment decisions.
 
 
