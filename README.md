@@ -40,3 +40,15 @@ The goal is to investigate whether combining **stock historical data** and **new
 
 Create a `.env` file in the root directory and add your API key:
 
+Ensure `.env` is added to your `.gitignore` file to prevent accidental uploads.
+
+---
+
+## 🧪 How to Run
+
+### 1. Install dependencies
+
+```bash
+pip install -r requirements.txt
+
+
