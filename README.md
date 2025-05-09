@@ -51,14 +51,14 @@ Ensure `.env` is added to your `.gitignore` file to prevent accidental uploads.
 ```bash
 pip install -r requirements.txt
 ```
-###2. Prepare data
+### 2. Prepare data
 ```
 python fetch_stock_data.py
 python fetch_news_data.py
 python news_sentiment_analysis.py
 python integrate_news_stock.py
 ```
-###3. Train and test the model
+### 3. Train and test the model
 ```
 python stock_prediction_lstm.py
 python test_model.py
